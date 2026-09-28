@@ -1,0 +1,23 @@
+Project Review 1
+
+The given microservice and tables in the project statement is sample only, you can have better one and have justification for that. If you are going for the same also, you should justify it clearly.
+
+
+DTI Concepts
+——————-
+Empathy Mapping as a Survey Result
+Persona from single person (survey)
+Customer Journey Map in your system
+
+LinkedIn Article
+———————
+1. Title (Your own title for the taken Problem Statement) and Team Details
+2. Problem Analysis and Requirement Specification (What you analysis, understand and specified)
+3. Survey Conducted and Common Issue Addressed
+5. DTI Concepts
+6. Architecture Diagram and Modules
+7. Microservices Listing, Data Handling and Service Integration
+8. Innovative Ideas
+
+
+

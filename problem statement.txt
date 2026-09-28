@@ -1,0 +1,20 @@
+Business Use Case: The company Omni-Stock Retail requires a multi-warehouse inventory control platform to track physical stock levels and streamline order fulfillment workflows across regional distribution hubs. Omni-Stock needs to update available stock counts automatically upon order placement, enforce low-stock replenishment alerts, and allow warehouse managers to update product catalogs. The company requires independent microservices for product cataloging, stock tracking, and order placement to maintain transactional consistency. Omni-Stock specifies JWT authentication, service registration with Eureka, API Gateway request management, and load balancing to ensure accurate stock reconciliation across frequent inventory updates.
+
+Managers should: Monitor inventory levels, Manage product entries, The system must handle frequent updates and ensure data consistency.
+
+Microservices--Product Service--Inventory Service--Order Service (+ API Gateway, Auth Service, Eureka Server)
+
+PS017 : Multi-Warehouse Inventory Control & Stock Reconciliation System
+
+Tasks to be Done
+
+Implement JWT authentication
+Product Service manages product catalog
+Inventory Service tracks stock
+Order Service handles order placement
+Inter-service communication (Order -> Inventory -> Product)
+Register with Eureka
+Use API Gateway
+Apply Load Balancing
+Write Unit & Integration Tests
+Deploy services
